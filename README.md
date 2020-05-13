@@ -3,9 +3,11 @@
 A new flutter application example for reactive flutter app
 
 ## Contents
-- StreamBuilder
-- RxDart 의 BehaviorSubject -> Stream 을 지원한다.
-- Bloc 패턴
+- StreamBuilder : Stream 의 변화를 감지하여 UI를 빌드
+- Bloc 패턴 (Bussiness Logic Component)
+  - UI와 데이터 부분을 분리하기 위한 개발 패턴
+  - 가장 간단한 방법 -> RxDart 의 BehaviorSubject 를 이용
+  - BehaviorSubject 는 Stream 을 지원한다.
 
 ## Getting Started
 
